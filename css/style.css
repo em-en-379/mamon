@@ -1,0 +1,113 @@
+@import "button.css";
+@import "bacic.css";
+
+
+
+/* logo */
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo__image{
+    width: inherit;
+    height: inherit;
+}
+
+/* шапка */
+
+.header{
+    padding: 50px 0px;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header__menu{
+    width: 40%;
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu__link{
+    display: inline-block;
+    color: var(--font-dark);
+    font-style: 14px;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+
+/* модификатор для внимания */
+
+.menu__link--trigger{
+background-color: #5528FF;
+color: white;
+border-radius: 5px;
+}
+
+
+/* контент после шапки */
+
+.header-content{
+    margin-top: 75px;
+}
+
+.header-content__title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--font-dark);
+}
+
+.header-content__text{
+    font-size: 24px;
+    line-height: 180%;
+    color: var(--font-grey);
+    width: 75%;
+    margin-top: 25px;
+}
+
+.header-content__button{
+    margin-top: 70px;
+}
+
+/* footer */
+
+.footer{
+    padding: 20px 20px;
+    background-color: #f7f7f7
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__media a{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: tomato;
+    margin: 0 10px;
+}

@@ -1,0 +1,42 @@
+:root{
+    --font-dark: #202020;
+    --font-grey: #4f4f4f;
+    --font-light-grey: #b2b2b2;
+    --accent-color: #5528ff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body   {   
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* Общие стили */
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1170px;
+    }
+}
